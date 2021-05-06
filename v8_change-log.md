@@ -15,6 +15,10 @@
 - [Hardware Usage Optimaization](#hardware-usage-optimization)
 - [Memory and Storage Usage Optimaization](#memory-usage-optimization)
 - [Camera and Library](#camera-and-library)
+- [Attachments and Misc](#attachments-and-misc)
+- [Media in Feed](#media-in-feed)
+- [Chat](#chat)
+- [Notification Interaction](#notification-interaction)
 
 ## Hardware Usage Optimaization
 iOS is efficient with less *Application Memory (RAM)* which requires us to take care of the operations we create. Most of the heavy tasks are now being run in suitable **Threads**. The operations are being executed asynchronously and being closed properly so not to take up huge amount of unpermitted memory usage.
@@ -40,7 +44,7 @@ Device storage is an important aspect of any app. As we work with media we keep 
 - **Video range scrubbing:** For videos longer than 20 seconds, users will now be able to scrub through the video and select desired range
 
 
-### Attachments and Misc.
+### Attachments and Misc
 - The new module provides and broader range of stickers, gifs, text styles and colors, doodling. 
 - System information such as location and clock can now be used in attachments.
 
@@ -55,5 +59,5 @@ Device storage is an important aspect of any app. As we work with media we keep 
 - Now supports memoji
 - Supports pasting image from external sources directly in message box.
 
-### Notification Interaction
+## Notification Interaction
 - Tapping on a notification will directly open the post.
